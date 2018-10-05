@@ -1,0 +1,59 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home
+		.container
+			.row
+				.col-md-6.box1
+					.hinh
+						img.img-fluid(src="./img/m1.jpg", alt="")
+						.nut2
+							img(src="./img/local.png", alt="")
+							a(href="") Quận 5
+						.nut1
+							img(src="./img/vour.png", alt="")
+							a(href="") E-vourcher
+						img.face(src="./img/face.png", alt="")
+					.row
+						.col
+							p 06 tuần tập luyện đẳng cấp cùng huấn luyện viên thể hình
+							hr
+							h3 399,000
+								sup đ
+							h4 1,500,000
+								sup đ
+						.logo
+							img(src="./img/logo.png", alt="")
+					.xem
+						img(src="./img/per.png", alt="")
+						a(href="") 50
+				.col-md-6.box2
+					.hinh
+						img.img-fluid(src="./img/m1.jpg", alt="")
+						.nut2
+							img(src="./img/local.png", alt="")
+							a(href="") Quận 5
+						.nut1
+							img(src="./img/vour.png", alt="")
+							a(href="") E-vourcher
+						a.nut3(href="") xem thêm
+					.row
+						.col
+							p 06 tuần tập luyện đẳng cấp cùng huấn luyện viên thể hình
+							hr
+							h3 399,000
+								sup đ
+							h4 1,500,000
+								sup đ
+					.xem
+						img(src="./img/per.png", alt="")
+						a(href="") 50									
+					.logo
+						img(src="./img/logo.png", alt="")
+						
+
