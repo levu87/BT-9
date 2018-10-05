@@ -6403,6 +6403,16 @@ html, body {
       transform: translate(-50%, -50%);
       top: 50%;
       left: 50%; }
+    .box2 .hinh .time {
+      color: white;
+      padding: 1rem 2rem;
+      background-color: black;
+      position: absolute;
+      opacity: 0.7;
+      top: 0.5rem;
+      right: 0.5rem;
+      font-size: 15px;
+      border-radius: 10px; }
   .box2 p {
     font-size: 25px;
     font-weight: bold; }
